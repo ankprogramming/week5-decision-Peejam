@@ -52,8 +52,8 @@ cout << "What should you do? (A)sk for money,(S)teal : ";
 
    cin >> choice1;
       switch(choice1) {
-         case "S" : score += 10; life -= 1; cout << "You stole money from people. Now you can shopping.";
-         case "A" : score += 50; cout << "You ask for money from people then you get 100 baht. You are very happy. Now you can shopping.";
+         case 'S' : score += 10; life -= 1; cout << "You stole money from people. Now you can shopping.";
+         case 'A' : score += 50; cout << "You ask for money from people then you get 100 baht. You are very happy. Now you can shopping.";
       }
 
 
